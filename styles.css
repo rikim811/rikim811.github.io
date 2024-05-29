@@ -3,7 +3,7 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(135deg, #1b1f3b 0%, #1e3c72 100%);
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #1e3c72 100%);
     color: #ffffff;
     display: flex;
     justify-content: center;
@@ -22,12 +22,6 @@ body {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(10px);
     animation: fadeIn 1.5s ease-in-out;
-    perspective: 1000px;
-}
-
-.ebt-container {
-    background-color: #1c1d33;
-    color: #ffffff;
 }
 
 header {
@@ -40,10 +34,6 @@ nav ul {
     display: flex;
     justify-content: center;
     gap: 20px;
-}
-
-nav ul li {
-    display: inline;
 }
 
 nav ul li a {
@@ -69,78 +59,19 @@ h1 {
     letter-spacing: 3px;
 }
 
-.profile, .contacts, .description {
+.profile, .contacts {
     margin-top: 20px;
 }
 
-.profile ul, .description ul {
+.profile ul {
     list-style: none;
     padding: 0;
     font-size: 1.5em;
 }
 
-.profile li, .description li {
+.profile li {
     margin: 15px 0;
     animation: slideIn 1s ease-out;
-}
-
-.description p {
-    font-size: 1.2em;
-    line-height: 1.5;
-}
-
-.description .bible-versions {
-    display: flex;
-    justify-content: space-around;
-    margin: 20px 0;
-}
-
-.description .version-column {
-    flex: 1;
-    margin: 0 10px;
-    text-align: left;
-}
-
-.description .version-card {
-    background: rgba(56, 182, 255, 0.2);
-    border: 1px solid #38b6ff;
-    padding: 15px;
-    margin: 10px 0;
-    border-radius: 5px;
-    text-align: center;
-    font-size: 1em;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background 0.3s, transform 0.3s;
-}
-
-.description .version-card:hover {
-    background: #38b6ff;
-    color: #1c1d33;
-    transform: scale(1.05);
-}
-
-.description .links {
-    margin-top: 20px;
-}
-
-.description .btn {
-    display: inline-block;
-    background-color: #38b6ff;
-    color: #1c1d33;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 1.2em;
-    transition: background-color 0.3s, transform 0.3s;
-}
-
-.description .btn:hover {
-    background-color: #1c1d33;
-    color: #38b6ff;
-    transform: scale(1.1);
 }
 
 .countdown {
