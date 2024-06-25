@@ -1,24 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-		<!--	created with www.mysitemapgenerator.com	-->
-		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
 <url>
-	<loc>https://rikim.me/</loc>
-	<lastmod>2024-06-25T05:46:29+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://rikim.me/</loc>
+  <lastmod>2024-06-25T02:50:58+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-	<loc>https://rikim.me/wtr</loc>
-	<lastmod>2024-06-25T05:46:29+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://rikim.me/wtr</loc>
+  <lastmod>2024-06-25T02:50:58+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://rikim.me/ebt/</loc>
-	<lastmod>2024-06-25T05:46:31+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>http://rikim.me/ebt</loc>
+  <lastmod>2024-06-25T02:50:58+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://rikim.me/aviation/</loc>
-	<lastmod>2024-06-25T05:46:31+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>http://rikim.me/aviation/</loc>
+  <lastmod>2024-05-29T11:02:32+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
+
+
 </urlset>
