@@ -1,0 +1,104 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #2c3e50, #4ca1af);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 1s ease-in-out;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+h2 {
+    font-size: small;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+.logo {
+    width: 150px;
+    height: auto;
+    transition: transform 0.5s;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+select, button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    background: #4ca1af;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-family: 'Roboto', sans-serif;
+}
+
+select:focus, button:focus {
+    outline: none;
+}
+
+button:hover {
+    background: #2c3e50;
+}
+
+.output {
+    margin-top: 20px;
+}
+.dev-link {
+    color: #4ca1af;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.dev-link:hover {
+    color: #ffffff;
+}
+
+#chapterTitle {
+    font-size: 24px;
+    margin-bottom: 10px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+#chapterTitle a {
+    color: #4ca1af;
+    text-decoration: none;
+}
+
+#chapterTitle a:hover {
+    text-decoration: underline;
+}
+
+#chapterSummary {
+    font-size: 18px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

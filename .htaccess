@@ -1,6 +1,6 @@
 RewriteEngine on
 
-# Serve index.html by default
+# Serve index.html by default in root and subdirectories
 DirectoryIndex index.html
 
 # Redirect to the correct .html file if it exists
@@ -8,7 +8,7 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html [NC,L]
 
-# Ensure that URLs without file extensions work
+# Ensure that URLs without file extensions work for subdirectories
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^([^/]+)/?$ $1.html [L]
+RewriteRule ^([^/]+)/?$ $1/index.html [L]

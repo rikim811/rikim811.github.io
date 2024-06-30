@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Bible Chapter</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <img src="wtr.png" alt="What to Read Logo" class="logo">
+        <h1>Random Chapter Generator</h1>
+        <div class="controls">
+            <select id="testamentSelect">
+                <option value="whole">Whole Bible</option>
+                <option value="ot">Old Testament</option>
+                <option value="nt">New Testament</option>
+                <option value="specific">Specific Book</option>
+                <option value="category">Specific Category</option>
+            </select>
+            <select id="sectionSelect" style="display: none;">
+                <option value="law">Books of the Law</option>
+                <option value="historical">Historical Books</option>
+                <option value="poetic">Poetic Books</option>
+                <option value="prophets">Prophets</option>
+                <option value="maprophets">Major Prophets</option>
+                <option value="miprophets">Minor Prophets</option>
+                <option value="gospels">Gospels</option>
+                <option value="letters">Letters</option>
+            </select>
+            <select id="bookSelect" style="display: none;">
+                <!-- Options will be dynamically generated -->
+            </select>
+            <button id="randomizeBtn">Get Random Chapter</button>
+        </div>
+        <div class="output">
+            <h2 id="chapterTitle"></h2>
+            <p id="chapterSummary"></p>
+        </div>
+        <div class="credits">
+            <p>Developed by <a href="https://rikim.me/" target="_blank" class="dev-link">Riki Morohashi</a></p>
+            <p>Summary credits to <a href="https://biblesummary.info" target="_blank" class="dev-link">Bible Summary</a></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
