@@ -9,23 +9,28 @@
 
 <url>
   <loc>http://rikim.me/</loc>
-  <lastmod>2024-06-25T02:50:58+00:00</lastmod>
+  <lastmod>2024-06-30T14:02:41+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://rikim.me/wtr</loc>
-  <lastmod>2024-06-25T02:50:58+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://rikim.me/ebt</loc>
-  <lastmod>2024-06-25T02:50:58+00:00</lastmod>
+  <loc>http://rikim.me/projects/</loc>
+  <lastmod>2024-06-30T14:02:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://rikim.me/aviation/</loc>
   <lastmod>2024-05-29T11:02:32+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://rikim.me/ebt/</loc>
+  <lastmod>2024-06-30T14:02:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://rikim.me/wtr/</loc>
+  <lastmod>2024-06-30T14:02:41+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
