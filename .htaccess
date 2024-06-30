@@ -1,4 +1,14 @@
 RewriteEngine on
+
+# Serve index.html by default
+DirectoryIndex index.html
+
+# Redirect to the correct .html file if it exists
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html [NC,L]
+
+# Ensure that URLs without file extensions work
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+)/?$ $1.html [L]
