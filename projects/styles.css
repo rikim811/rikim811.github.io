@@ -60,42 +60,6 @@ h1 {
     letter-spacing: 3px;
 }
 
-.profile, .contacts {
-    margin-top: 20px;
-}
-
-.profile ul {
-    list-style: none;
-    padding: 0;
-    font-size: 1.5em;
-}
-
-.profile li {
-    margin: 15px 0;
-    animation: slideIn 1s ease-out;
-}
-
-.contacts h2 {
-    margin-bottom: 10px;
-}
-
-.social-icons {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.social-icon {
-    font-size: 2em;
-    color: #00aaff;
-    transition: transform 0.3s, color 0.3s;
-}
-
-.social-icon:hover {
-    transform: scale(1.2);
-    color: #ffaa00;
-}
-
 .projects {
     margin-top: 20px;
 }
@@ -103,7 +67,7 @@ h1 {
 .project-card {
     display: flex;
     align-items: center;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(30, 60, 114, 0.8); /* Changed to a solid color with opacity for better contrast */
     padding: 20px;
     border-radius: 15px;
     margin-bottom: 20px;
@@ -125,6 +89,7 @@ h1 {
 
 .project-info {
     text-align: left;
+    color: #ffffff; /* Ensuring the text remains white */
 }
 
 .project-info h3 {
