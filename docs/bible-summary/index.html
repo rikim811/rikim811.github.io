@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riki Official - Bible Summary Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="icon" href="../../image/rikilogo.png" type="image/png">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="../../image/rikilogo.png" alt="Riki Logo" class="logo">
+            <h1>Riki Official - Bible Summary Documentation</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="https://rikim.me/projects">Projects</a></li>
+            </ul>
+        </nav>
+        <section class="documentation">
+            <h2>Documentation for bible-summary</h2>
+            <p>The <strong>bible-summary</strong> package provides a comprehensive set of functions to interact with summaries of Bible chapters. Below is a detailed documentation of the available functions and their usage.</p>
+            
+            <h3>Links</h3>
+            <ul>
+                <li><a href="https://github.com/rikim811/bible-summary-python" target="_blank">GitHub Repository</a></li>
+                <li><a href="https://rikim.xyz/bible-summary" target="_blank">PyPI Package</a></li>
+                <li><a href="https://rikim.xyz/wtr" target="_blank">Website Using This</a></li>
+            </ul>
+
+            <h3>Installation</h3>
+            <pre><code>pip install bible-summary</code></pre>
+
+            <h3>Functions</h3>
+
+            <h4>_load_books()</h4>
+            <p>Loads the book data from the JSON files in the package.</p>
+
+            <h4>get_summary(book, chapter)</h4>
+            <p>Returns the summary of a specific chapter in a given book.</p>
+            <pre><code>get_summary('Genesis', '1')</code></pre>
+
+            <h4>get_books()</h4>
+            <p>Returns a list of all books available in the package.</p>
+            <pre><code>get_books()</code></pre>
+
+            <h4>get_chapters(book)</h4>
+            <p>Returns a list of chapters for a given book.</p>
+            <pre><code>get_chapters('Genesis')</code></pre>
+
+            <h4>get_random_chapter(book=None, include_summary=True)</h4>
+            <p>Returns a random chapter from a given book or from the whole Bible if no book is specified. Optionally includes the summary.</p>
+            <pre><code>get_random_chapter('Genesis')</code></pre>
+
+            <h4>get_random_category_chapter(category, include_summary=True)</h4>
+            <p>Returns a random chapter from a given category (e.g., Gospels, Letters). Optionally includes the summary.</p>
+            <pre><code>get_random_category_chapter('Gospels')</code></pre>
+
+            <h4>get_max_chapters(book)</h4>
+            <p>Returns the total number of chapters in a given book.</p>
+            <pre><code>get_max_chapters('Genesis')</code></pre>
+
+            <h4>get_summary_range(book, start_chapter, end_chapter)</h4>
+            <p>Returns the summaries for a range of chapters in a given book.</p>
+            <pre><code>get_summary_range('Genesis', 1, 5)</code></pre>
+
+            <h4>get_all_chapters_summary(book)</h4>
+            <p>Returns the summaries for all chapters in a given book.</p>
+            <pre><code>get_all_chapters_summary('Genesis')</code></pre>
+
+            <h4>search_summaries(keyword, book=None)</h4>
+            <p>Searches for summaries containing a specific keyword. Optionally restricts the search to a given book.</p>
+            <pre><code>search_summaries('creation', 'Genesis')</code></pre>
+
+            <h4>get_categories()</h4>
+            <p>Returns a list of all categories available in the package.</p>
+            <pre><code>get_categories()</code></pre>
+
+            <h4>get_random_chapter_by_category(category, include_summary=True)</h4>
+            <p>Returns a random chapter from a given category. Optionally includes the summary.</p>
+            <pre><code>get_random_chapter_by_category('Gospels')</code></pre>
+
+            <h4>get_total_chapters()</h4>
+            <p>Returns the total number of chapters in the Bible.</p>
+            <pre><code>get_total_chapters()</code></pre>
+
+            <h4>get_total_books()</h4>
+            <p>Returns the total number of books in the Bible.</p>
+            <pre><code>get_total_books()</code></pre>
+        </section>
+    </div>
+</body>
+</html>
