@@ -1,35 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
 <url>
   <loc>http://rikim.me/</loc>
-  <lastmod>2024-06-30T14:02:41+00:00</lastmod>
+  <lastmod>2024-07-03T14:17:29+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>http://rikim.me/projects/</loc>
-  <lastmod>2024-06-30T14:02:41+00:00</lastmod>
+  <lastmod>2024-07-03T14:17:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://rikim.me/aviation/</loc>
-  <lastmod>2024-05-29T11:02:32+00:00</lastmod>
+  <loc>http://rikim.me/servers/</loc>
+  <lastmod>2024-07-03T14:17:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://rikim.me/ebt/</loc>
-  <lastmod>2024-06-30T14:02:41+00:00</lastmod>
+  <lastmod>2024-07-03T14:17:29+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://rikim.me/wtr/</loc>
-  <lastmod>2024-06-30T14:02:41+00:00</lastmod>
+  <lastmod>2024-07-03T14:17:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://rikim.me/servers/fhl/</loc>
+  <lastmod>2024-07-03T14:17:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://rikim.me/servers/techlab/</loc>
+  <lastmod>2024-07-03T14:17:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://rikim.me/servers/jpop/</loc>
+  <lastmod>2024-07-03T14:17:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://rikim.me/servers/jesus/</loc>
+  <lastmod>2024-07-03T14:17:29+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
